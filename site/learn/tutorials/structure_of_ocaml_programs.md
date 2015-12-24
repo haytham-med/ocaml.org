@@ -270,7 +270,8 @@ will need to create a custom toplevel. Issue the command `ocamlmktop
 
 A couple of examples should make this clear. (The two examples draw
 different things - try them out). Note the first example calls
-`open_graph` and the second one `Graphics.open_graph`.
+`open_graph` and the second one `Graphics.open_graph`. You need to 
+write the following code into a file named grtest1.ml :
 
 ```ocaml
 (* To compile this example: ocamlc graphics.cma grtest1.ml -o grtest1 *)
